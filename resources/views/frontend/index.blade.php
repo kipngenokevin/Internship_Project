@@ -10,11 +10,11 @@
 
   <div class="sidebar">
     <div class="sidebar-brand">
-      <h1><span class="lab la-accusoft"></span>Internship</h1>
+      <h1> <img src="{{ asset('public/frontend/img/jkuat-logo.png') }}" width="54px" height="54px" alt="">Internship</h1>
     </div>
     <div class="sidebar-menu">
       <ul>
-        <li><a href=""><span class="las la-igloo"></span>
+        <li><a href="" class="active"><span class="las la-igloo"></span>
           <span>Dashboard</span></a>
         </li>
         <li><a href=""><span class="las la-pen-nib"></span>
@@ -32,6 +32,7 @@
       </ul>
     </div>
   </div>
+
   <div class="main-content">
     <header>
       <h1>
@@ -39,20 +40,21 @@
           <span class="las la-bars"></span>
         </label>
         Dashboard
-      </div>
+      
     </h1>
     <div class="search-wrapper">
       <span class="las la-search"></span>
       <input type="search" placeholder="Search here">
     </div>
     <div class="user-wrapper">
-      <img src="{{ asset('public/frontend/img/img.png') }}" width="30px" height=30px alt="">
+      <img src="{{ asset('public/frontend/img/img.png') }}" width="40px" height="40px" alt="">
       <div>
         <h4>John Doe</h4>
         <small>Student Account</small>
       </div>
     </div>
   </header>
+  
 
   <main>
 
@@ -60,7 +62,7 @@
       <div class="card-single">
         <div>
           <h1>54</h1>
-          <span>Customers</span>
+          <span>Daily Entries</span>
         </div>
         <div>
           <span class="las la-users"></span>
@@ -69,33 +71,34 @@
 
       <div class="card-single">
         <div>
-          <h1>79</h1>
+          <h1>3</h1>
           <span>Projects</span>
         </div>
         <div>
           <span class="las la-clipboard"></span>
         </div>
       </div>
-    </div>
+    
     <div class="card-single">
         <div>
           <h1>124</h1>
-          <span>Orders</span>
+          <span>Weekly Reports</span>
         </div>
         <div>
           <span class="las la-shopping-bag"></span>
         </div>
       </div>
+
       <div class="card-single">
         <div>
-          <h1>$6k</h1>
-          <span>Income</span>
+          <h1>2</h1>
+          <span>Supervisors</span>
         </div>
         <div>
           <span class="lab la-google-wallet"></span>
         </div>
       </div>
-
+    </div>
   </main>
 </div>
 
