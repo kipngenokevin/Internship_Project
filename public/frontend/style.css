@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:wght@300;400;500;600&display=swap');
+
+:root{
+    --main-color: #DD2F6E;
+    --color-dark: #1d2231;
+    --text-grey: #8390A2;
+}
