@@ -101,13 +101,18 @@
       </div>
 
       <div class="recent-grid">
+
         <div class="projects">
+
           <div class="card">
+
             <div class="card-header">
-              <h3>Recent Projects</h3>
-              <button> See all<span class="las la-arrow-right"></span> </button>
+              <h2>Recent Projects</h2>
+              <button>See all<span class="las la-arrow-right"></span></button>
             </div>
+
             <div class="card-body">
+
               <table width="100%">
                 <thead>
                   <tr>
@@ -120,95 +125,208 @@
                   <tr>
                     <td>UI/UX Design</td>
                     <td>UI Team</td>
-                    <td><span class="status"></span> review</td>
+                    <td><span class="status purple"></span>
+                      review
+                    </td>
                   </tr>
+
                   <tr>
-                    <td> Web Development</td>
-                    <td>Front End</td>
-                    <td><span class="status"></span>in progress</td>
+                    <td>Web Development</td>
+                    <td>FrontEnd</td>
+                    <td><span class="status"></span>
+                      in progress
+                    </td>
                   </tr>
+
                   <tr>
-                    <td>Ushop app</td>
+                    <td>Ushop App</td>
                     <td>Mobile Team</td>
-                    <td><span class="status"></span>pending</td>
+                    <td><span class="status"></span>
+                      pending
+                    </td>
                   </tr>
 
                   <tr>
                     <td>UI/UX Design</td>
                     <td>UI Team</td>
-                    <td><span class="status"></span> review</td>
-                  </tr>
-                  <tr>
-                    <td> Web Development</td>
-                    <td>Front End</td>
-                    <td><span class="status"></span>in progress</td>
-                  </tr>
-                  <tr>
-                    <td>Ushop app</td>
-                    <td>Mobile Team</td>
-                    <td><span class="status"></span>pending</td>
+                    <td><span class="status"></span>
+                      review
+                    </td>
                   </tr>
 
+                  <tr>
+                    <td>Web Development</td>
+                    <td>FrontEnd</td>
+                    <td><span class="status"></span>
+                      in progress
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>Ushop App</td>
+                    <td>Mobile Team</td>
+                    <td><span class="status"></span>
+                      pending
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>UI/UX Design</td>
+                    <td>UI Team</td>
+                    <td><span class="status"></span>
+                      review
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>Web Development</td>
+                    <td>FrontEnd</td>
+                    <td><span class="status"></span>
+                      in progress
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>Ushop App</td>
+                    <td>Mobile Team</td>
+                    <td><span class="status"></span>
+                      pending
+                    </td>
+                  </tr>
                 </tbody>
+
               </table>
+
             </div>
           </div>
+
         </div>
+
+
         <div class="customers">
-          <div class="card">
-            <div class="card-header">
-              <h3>New Customer</h3>
-              <button> See all<span class="las la-arrow-right"></span> </button>
-            </div>
+
+         <div class="card">
+
+           <div class="card-header">
+              <h2>New Customer</h2>
+              <button>See all<span class="las la-arrow-right"></span></button>
+           </div>
+
             <div class="card-body">
               <div class="customer">
                 <div>
-                  <img src="" width="40px" height="40px" alt="">
-                  <div>
-                    <h4>Lewis Cunninghum</h4>
-                    <small>CEO Expert</small>
-                  </div>
-              </div>
-                <div>
-                  <span class="las la-user-circle"></span>
-                  <span class="las la-comment"></span>
-                  <span class="las la-phone"></span>
+                  <img src="" height="40px" width="40px" alt="">
                 </div>
-            </div>
-            <div class="customer">
                 <div>
-                  <img src="" width="40px" height="40px" alt="">
-                  <div>
-                    <h4>Lewis Cunninghum</h4>
-                    <small>CEO Expert</small>
-                  </div>
-              </div>
-                <div>
-                  <span class="las la-user-circle"></span>
-                  <span class="las la-comment"></span>
-                  <span class="las la-phone"></span>
+                  <h4>Lewis Cunninghum</h4>
+                  <small>CEO Excerpt</small>
                 </div>
-            </div>
 
-            <div class="customer">
-                <div>
-                  <img src="" width="40px" height="40px" alt="">
-                  <div>
-                    <h4>Lewis Cunninghum</h4>
-                    <small>CEO Expert</small>
-                  </div>
-              </div>
                 <div>
                   <span class="las la-user-circle"></span>
                   <span class="las la-comment"></span>
                   <span class="las la-phone"></span>
                 </div>
+             </div>
+
+             <div class="customer">
+                <div>
+                  <img src="" height="40px" width="40px" alt="">
+                </div>
+                <div>
+                  <h4>Lewis Cunninghum</h4>
+                  <small>CEO Excerpt</small>
+                </div>
+
+                <div>
+                  <span class="las la-user-circle"></span>
+                  <span class="las la-comment"></span>
+                  <span class="las la-phone"></span>
+                </div>
+             </div>
+              
+             <div class="customer">
+                <div>
+                  <img src="" height="40px" width="40px" alt="">
+                </div>
+                <div>
+                  <h4>Lewis Cunninghum</h4>
+                  <small>CEO Excerpt</small>
+                </div>
+
+                <div>
+                  <span class="las la-user-circle"></span>
+                  <span class="las la-comment"></span>
+                  <span class="las la-phone"></span>
+                </div>
+             </div>
+
+             <div class="customer">
+                <div>
+                  <img src="" height="40px" width="40px" alt="">
+                </div>
+                <div>
+                  <h4>Lewis Cunninghum</h4>
+                  <small>CEO Excerpt</small>
+                </div>
+
+                <div>
+                  <span class="las la-user-circle"></span>
+                  <span class="las la-comment"></span>
+                  <span class="las la-phone"></span>
+                </div>
+             </div>
+
+             <div class="customer">
+                <div>
+                  <img src="" height="40px" width="40px" alt="">
+                </div>
+                <div>
+                  <h4>Lewis Cunninghum</h4>
+                  <small>CEO Excerpt</small>
+                </div>
+
+                <div>
+                  <span class="las la-user-circle"></span>
+                  <span class="las la-comment"></span>
+                  <span class="las la-phone"></span>
+                </div>
+             </div>
+
+             <div class="customer">
+                <div>
+                  <img src="" height="40px" width="40px" alt="">
+                </div>
+                <div>
+                  <h4>Lewis Cunninghum</h4>
+                  <small>CEO Excerpt</small>
+                </div>
+
+                <div>
+                  <span class="las la-user-circle"></span>
+                  <span class="las la-comment"></span>
+                  <span class="las la-phone"></span>
+                </div>
+             </div>
+
+             <div class="customer">
+                <div>
+                  <img src="" height="40px" width="40px" alt="">
+                </div>
+                <div>
+                  <h4>Lewis Cunninghum</h4>
+                  <small>CEO Excerpt</small>
+                </div>
+
+                <div>
+                  <span class="las la-user-circle"></span>
+                  <span class="las la-comment"></span>
+                  <span class="las la-phone"></span>
+                </div>
+             </div>
             </div>
           </div>
-
         </div>
       </div>
-    </div>
 
       </main>
     </div>
