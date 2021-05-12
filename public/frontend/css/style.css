@@ -179,3 +179,10 @@ main {
     color:#fff;
 }
 
+.recent-grid {
+    margin-top: 3rem;
+}
+
+table {
+    border-collapse: collapse;
+}

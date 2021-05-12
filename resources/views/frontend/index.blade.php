@@ -40,67 +40,178 @@
           <span class="las la-bars"></span>
         </label>
         Dashboard
-      
-    </h1>
-    <div class="search-wrapper">
-      <span class="las la-search"></span>
-      <input type="search" placeholder="Search here">
-    </div>
-    <div class="user-wrapper">
-      <img src="{{ asset('public/frontend/img/img.png') }}" width="40px" height="40px" alt="">
-      <div>
-        <h4>John Doe</h4>
-        <small>Student Account</small>
+
+      </h1>
+      <div class="search-wrapper">
+        <span class="las la-search"></span>
+        <input type="search" placeholder="Search here">
+      </div>
+      <div class="user-wrapper">
+        <img src="{{ asset('public/frontend/img/img.png') }}" width="40px" height="40px" alt="">
+        <div>
+          <h4>John Doe</h4>
+          <small>Student Account</small>
+        </div>
+      </div>
+    </header>
+
+
+    <main>
+
+      <div class="cards">
+        <div class="card-single">
+          <div>
+            <h1>54</h1>
+            <span>Daily Entries</span>
+          </div>
+          <div>
+            <span class="las la-users"></span>
+          </div>
+        </div>
+
+        <div class="card-single">
+          <div>
+            <h1>3</h1>
+            <span>Projects</span>
+          </div>
+          <div>
+            <span class="las la-clipboard"></span>
+          </div>
+        </div>
+
+        <div class="card-single">
+          <div>
+            <h1>124</h1>
+            <span>Weekly Reports</span>
+          </div>
+          <div>
+            <span class="las la-shopping-bag"></span>
+          </div>
+        </div>
+
+        <div class="card-single">
+          <div>
+            <h1>2</h1>
+            <span>Supervisors</span>
+          </div>
+          <div>
+            <span class="lab la-google-wallet"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="recent-grid">
+        <div class="projects">
+          <div class="card">
+            <div class="card-header">
+              <h3>Recent Projects</h3>
+              <button> See all<span class="las la-arrow-right"></span> </button>
+            </div>
+            <div class="card-body">
+              <table width="100%">
+                <thead>
+                  <tr>
+                    <td>Project Title</td>
+                    <td>Department</td>
+                    <td>Status</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>UI/UX Design</td>
+                    <td>UI Team</td>
+                    <td><span class="status"></span> review</td>
+                  </tr>
+                  <tr>
+                    <td> Web Development</td>
+                    <td>Front End</td>
+                    <td><span class="status"></span>in progress</td>
+                  </tr>
+                  <tr>
+                    <td>Ushop app</td>
+                    <td>Mobile Team</td>
+                    <td><span class="status"></span>pending</td>
+                  </tr>
+
+                  <tr>
+                    <td>UI/UX Design</td>
+                    <td>UI Team</td>
+                    <td><span class="status"></span> review</td>
+                  </tr>
+                  <tr>
+                    <td> Web Development</td>
+                    <td>Front End</td>
+                    <td><span class="status"></span>in progress</td>
+                  </tr>
+                  <tr>
+                    <td>Ushop app</td>
+                    <td>Mobile Team</td>
+                    <td><span class="status"></span>pending</td>
+                  </tr>
+
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="customers">
+          <div class="card">
+            <div class="card-header">
+              <h3>New Customer</h3>
+              <button> See all<span class="las la-arrow-right"></span> </button>
+            </div>
+            <div class="card-body">
+              <div class="customer">
+                <div>
+                  <img src="" width="40px" height="40px" alt="">
+                  <div>
+                    <h4>Lewis Cunninghum</h4>
+                    <small>CEO Expert</small>
+                  </div>
+              </div>
+                <div>
+                  <span class="las la-user-circle"></span>
+                  <span class="las la-comment"></span>
+                  <span class="las la-phone"></span>
+                </div>
+            </div>
+            <div class="customer">
+                <div>
+                  <img src="" width="40px" height="40px" alt="">
+                  <div>
+                    <h4>Lewis Cunninghum</h4>
+                    <small>CEO Expert</small>
+                  </div>
+              </div>
+                <div>
+                  <span class="las la-user-circle"></span>
+                  <span class="las la-comment"></span>
+                  <span class="las la-phone"></span>
+                </div>
+            </div>
+
+            <div class="customer">
+                <div>
+                  <img src="" width="40px" height="40px" alt="">
+                  <div>
+                    <h4>Lewis Cunninghum</h4>
+                    <small>CEO Expert</small>
+                  </div>
+              </div>
+                <div>
+                  <span class="las la-user-circle"></span>
+                  <span class="las la-comment"></span>
+                  <span class="las la-phone"></span>
+                </div>
+            </div>
+          </div>
+
+        </div>
       </div>
     </div>
-  </header>
-  
 
-  <main>
-
-    <div class="cards">
-      <div class="card-single">
-        <div>
-          <h1>54</h1>
-          <span>Daily Entries</span>
-        </div>
-        <div>
-          <span class="las la-users"></span>
-        </div>
-      </div>
-
-      <div class="card-single">
-        <div>
-          <h1>3</h1>
-          <span>Projects</span>
-        </div>
-        <div>
-          <span class="las la-clipboard"></span>
-        </div>
-      </div>
-    
-    <div class="card-single">
-        <div>
-          <h1>124</h1>
-          <span>Weekly Reports</span>
-        </div>
-        <div>
-          <span class="las la-shopping-bag"></span>
-        </div>
-      </div>
-
-      <div class="card-single">
-        <div>
-          <h1>2</h1>
-          <span>Supervisors</span>
-        </div>
-        <div>
-          <span class="lab la-google-wallet"></span>
-        </div>
-      </div>
+      </main>
     </div>
-  </main>
-</div>
 
-</body>
-</html>
+  </body>
+  </html>
