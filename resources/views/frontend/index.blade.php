@@ -6,11 +6,11 @@
   <link rel="stylesheet" href="{{ url('public/frontend/css/style.css') }}" rel="stylesheet" type="text/css">
 </head>
 <body>
-  
 
+  <input type="checkbox" id="nav-toggle">
   <div class="sidebar">
     <div class="sidebar-brand">
-      <h1> <img src="{{ asset('public/frontend/img/jkuat-logo.png') }}" width="54px" height="54px" alt="">Internship</h1>
+      <h1><span><img src="{{ asset('public/frontend/img/jkuat-logo.png') }}" width="54px" height="54px" alt=""></span><span>Internship</span></h1>
     </div>
     <div class="sidebar-menu">
       <ul>
@@ -34,14 +34,14 @@
   </div>
 
   <div class="main-content">
+
     <header>
-      <h1>
-        <label for="">
+      <h2>
+        <label for="nav-toggle">
           <span class="las la-bars"></span>
         </label>
         Dashboard
-
-      </h1>
+      </h2>
       <div class="search-wrapper">
         <span class="las la-search"></span>
         <input type="search" placeholder="Search here">
@@ -214,30 +214,13 @@
             <div class="card-body">
               <div class="customer">
                 <div class="info">
-                  <img src="" height="40px" width="40px" alt="">
+                  <img src="{{ asset('public/frontend/img/img2.png') }}" width="40px" height="40px" alt="">
+                  <div>
+                    <h4>Lewis Cunninghum</h4>
+                    <small>CEO Excerpt</small>
+                  </div>
                 </div>
-                <div>
-                  <h4>Lewis Cunninghum</h4>
-                  <small>CEO Excerpt</small>
-                </div>
-
-                <div>
-                  <span class="las la-user-circle"></span>
-                  <span class="las la-comment"></span>
-                  <span class="las la-phone"></span>
-                </div>
-              </div>
-
-              <div class="customer">
                 <div class="contact">
-                  <img src="" height="40px" width="40px" alt="">
-                </div>
-                <div>
-                  <h4>Lewis Cunninghum</h4>
-                  <small>CEO Excerpt</small>
-                </div>
-
-                <div>
                   <span class="las la-user-circle"></span>
                   <span class="las la-comment"></span>
                   <span class="las la-phone"></span>
@@ -245,15 +228,30 @@
               </div>
 
               <div class="customer">
-                <div>
-                  <img src="" height="40px" width="40px" alt="">
+                <div class="info">
+                <img src="{{ asset('public/frontend/img/img2.png') }}" width="40px" height="40px" alt="">
+                  <div>
+                    <h4>Lewis Cunninghum</h4>
+                    <small>CEO Excerpt</small>
+                  </div>
                 </div>
-                <div>
-                  <h4>Lewis Cunninghum</h4>
-                  <small>CEO Excerpt</small>
+                <div class="contact">
+                  <span class="las la-user-circle"></span>
+                  <span class="las la-comment"></span>
+                  <span class="las la-phone"></span>
                 </div>
+              </div>
 
-                <div>
+
+              <div class="customer">
+                <div class="info">
+                <img src="{{ asset('public/frontend/img/img2.png') }}" width="40px" height="40px" alt="">
+                  <div>
+                    <h4>Lewis Cunninghum</h4>
+                    <small>CEO Excerpt</small>
+                  </div>
+                </div>
+                <div class="contact">
                   <span class="las la-user-circle"></span>
                   <span class="las la-comment"></span>
                   <span class="las la-phone"></span>
@@ -261,15 +259,14 @@
               </div>
 
               <div class="customer">
-                <div>
-                  <img src="" height="40px" width="40px" alt="">
+                <div class="info">
+                <img src="{{ asset('public/frontend/img/img2.png') }}" width="40px" height="40px" alt="">
+                  <div>
+                    <h4>Lewis Cunninghum</h4>
+                    <small>CEO Excerpt</small>
+                  </div>
                 </div>
-                <div>
-                  <h4>Lewis Cunninghum</h4>
-                  <small>CEO Excerpt</small>
-                </div>
-
-                <div>
+                <div class="contact">
                   <span class="las la-user-circle"></span>
                   <span class="las la-comment"></span>
                   <span class="las la-phone"></span>
@@ -277,52 +274,52 @@
               </div>
 
               <div class="customer">
-                <div>
-                  <img src="" height="40px" width="40px" alt="">
+                <div class="info">
+                <img src="{{ asset('public/frontend/img/img2.png') }}" width="40px" height="40px" alt="">
+                  <div>
+                    <h4>Lewis Link</h4>
+                    <small>CEO Excerpt</small>
+                  </div>
                 </div>
-                <div>
-                  <h4>Lewis Cunninghum</h4>
-                  <small>CEO Excerpt</small>
-                </div>
-
-                <div>
+                <div class="contact">
                   <span class="las la-user-circle"></span>
                   <span class="las la-comment"></span>
                   <span class="las la-phone"></span>
                 </div>
               </div>
+
 
               <div class="customer">
-                <div>
-                  <img src="" height="40px" width="40px" alt="">
+                <div class="info">
+                <img src="{{ asset('public/frontend/img/img2.png') }}" width="40px" height="40px" alt="">
+                  <div>
+                    <h4>Lewis Link</h4>
+                    <small>CEO Excerpt</small>
+                  </div>
                 </div>
-                <div>
-                  <h4>Lewis Cunninghum</h4>
-                  <small>CEO Excerpt</small>
-                </div>
-
-                <div>
+                <div class="contact">
                   <span class="las la-user-circle"></span>
                   <span class="las la-comment"></span>
                   <span class="las la-phone"></span>
                 </div>
               </div>
+
 
               <div class="customer">
-                <div>
-                  <img src="" height="40px" width="40px" alt="">
+                <div class="info">
+                <img src="{{ asset('public/frontend/img/img2.png') }}" width="40px" height="40px" alt="">
+                  <div>
+                    <h4>Lewis Link</h4>
+                    <small>CEO Excerpt</small>
+                  </div>
                 </div>
-                <div>
-                  <h4>Lewis Cunninghum</h4>
-                  <small>CEO Excerpt</small>
-                </div>
-
-                <div>
+                <div class="contact">
                   <span class="las la-user-circle"></span>
                   <span class="las la-comment"></span>
                   <span class="las la-phone"></span>
                 </div>
               </div>
+
             </div>
           </div>
         </div>
