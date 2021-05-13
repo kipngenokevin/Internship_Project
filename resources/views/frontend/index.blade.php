@@ -1,12 +1,12 @@
 <html lang="en">
 <head>
   <title>Internship Program</title>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8"/>
   <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
-  <link rel="stylesheet" href="{{ url('public/frontend/css/style.css') }}">
+  <link rel="stylesheet" href="{{ url('public/frontend/css/style.css') }}" rel="stylesheet" type="text/css">
 </head>
 <body>
-
+  
 
   <div class="sidebar">
     <div class="sidebar-brand">
@@ -112,90 +112,90 @@
             </div>
 
             <div class="card-body">
+              <div class="table-responsive">
+                <table width="100%">
+                  <thead>
+                    <tr>
+                      <td>Project Title</td>
+                      <td>Department</td>
+                      <td>Status</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>UI/UX Design</td>
+                      <td>UI Team</td>
+                      <td><span class="status purple"></span>
+                        review
+                      </td>
+                    </tr>
 
-              <table width="100%">
-                <thead>
-                  <tr>
-                    <td>Project Title</td>
-                    <td>Department</td>
-                    <td>Status</td>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>UI/UX Design</td>
-                    <td>UI Team</td>
-                    <td><span class="status purple"></span>
-                      review
-                    </td>
-                  </tr>
+                    <tr>
+                      <td>Web Development</td>
+                      <td>FrontEnd</td>
+                      <td><span class="status pink"></span>
+                        in progress
+                      </td>
+                    </tr>
 
-                  <tr>
-                    <td>Web Development</td>
-                    <td>FrontEnd</td>
-                    <td><span class="status"></span>
-                      in progress
-                    </td>
-                  </tr>
+                    <tr>
+                      <td>Ushop App</td>
+                      <td>Mobile Team</td>
+                      <td><span class="status orange"></span>
+                        pending
+                      </td>
+                    </tr>
 
-                  <tr>
-                    <td>Ushop App</td>
-                    <td>Mobile Team</td>
-                    <td><span class="status"></span>
-                      pending
-                    </td>
-                  </tr>
+                    <tr>
+                      <td>UI/UX Design</td>
+                      <td>UI Team</td>
+                      <td><span class="status purple"></span>
+                        review
+                      </td>
+                    </tr>
 
-                  <tr>
-                    <td>UI/UX Design</td>
-                    <td>UI Team</td>
-                    <td><span class="status"></span>
-                      review
-                    </td>
-                  </tr>
+                    <tr>
+                      <td>Web Development</td>
+                      <td>FrontEnd</td>
+                      <td><span class="status pink"></span>
+                        in progress
+                      </td>
+                    </tr>
 
-                  <tr>
-                    <td>Web Development</td>
-                    <td>FrontEnd</td>
-                    <td><span class="status"></span>
-                      in progress
-                    </td>
-                  </tr>
+                    <tr>
+                      <td>Ushop App</td>
+                      <td>Mobile Team</td>
+                      <td><span class="status orange"></span>
+                        pending
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>UI/UX Design</td>
+                      <td>UI Team</td>
+                      <td><span class="status purple"></span>
+                        review
+                      </td>
+                    </tr>
 
-                  <tr>
-                    <td>Ushop App</td>
-                    <td>Mobile Team</td>
-                    <td><span class="status"></span>
-                      pending
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>UI/UX Design</td>
-                    <td>UI Team</td>
-                    <td><span class="status"></span>
-                      review
-                    </td>
-                  </tr>
+                    <tr>
+                      <td>Web Development</td>
+                      <td>FrontEnd</td>
+                      <td><span class="status pink"></span>
+                        in progress
+                      </td>
+                    </tr>
 
-                  <tr>
-                    <td>Web Development</td>
-                    <td>FrontEnd</td>
-                    <td><span class="status"></span>
-                      in progress
-                    </td>
-                  </tr>
+                    <tr>
+                      <td>Ushop App</td>
+                      <td>Mobile Team</td>
+                      <td><span class="status orange"></span>
+                        pending
+                      </td>
+                    </tr>
+                  </tbody>
 
-                  <tr>
-                    <td>Ushop App</td>
-                    <td>Mobile Team</td>
-                    <td><span class="status"></span>
-                      pending
-                    </td>
-                  </tr>
-                </tbody>
-
-              </table>
-
+                </table>
+              </div>
             </div>
           </div>
 
@@ -204,14 +204,46 @@
 
         <div class="customers">
 
-         <div class="card">
+          <div class="card">
 
-           <div class="card-header">
+            <div class="card-header">
               <h2>New Customer</h2>
               <button>See all<span class="las la-arrow-right"></span></button>
-           </div>
+            </div>
 
             <div class="card-body">
+              <div class="customer">
+                <div class="info">
+                  <img src="" height="40px" width="40px" alt="">
+                </div>
+                <div>
+                  <h4>Lewis Cunninghum</h4>
+                  <small>CEO Excerpt</small>
+                </div>
+
+                <div>
+                  <span class="las la-user-circle"></span>
+                  <span class="las la-comment"></span>
+                  <span class="las la-phone"></span>
+                </div>
+              </div>
+
+              <div class="customer">
+                <div class="contact">
+                  <img src="" height="40px" width="40px" alt="">
+                </div>
+                <div>
+                  <h4>Lewis Cunninghum</h4>
+                  <small>CEO Excerpt</small>
+                </div>
+
+                <div>
+                  <span class="las la-user-circle"></span>
+                  <span class="las la-comment"></span>
+                  <span class="las la-phone"></span>
+                </div>
+              </div>
+
               <div class="customer">
                 <div>
                   <img src="" height="40px" width="40px" alt="">
@@ -226,9 +258,9 @@
                   <span class="las la-comment"></span>
                   <span class="las la-phone"></span>
                 </div>
-             </div>
+              </div>
 
-             <div class="customer">
+              <div class="customer">
                 <div>
                   <img src="" height="40px" width="40px" alt="">
                 </div>
@@ -242,9 +274,9 @@
                   <span class="las la-comment"></span>
                   <span class="las la-phone"></span>
                 </div>
-             </div>
-              
-             <div class="customer">
+              </div>
+
+              <div class="customer">
                 <div>
                   <img src="" height="40px" width="40px" alt="">
                 </div>
@@ -258,9 +290,9 @@
                   <span class="las la-comment"></span>
                   <span class="las la-phone"></span>
                 </div>
-             </div>
+              </div>
 
-             <div class="customer">
+              <div class="customer">
                 <div>
                   <img src="" height="40px" width="40px" alt="">
                 </div>
@@ -274,9 +306,9 @@
                   <span class="las la-comment"></span>
                   <span class="las la-phone"></span>
                 </div>
-             </div>
+              </div>
 
-             <div class="customer">
+              <div class="customer">
                 <div>
                   <img src="" height="40px" width="40px" alt="">
                 </div>
@@ -290,46 +322,14 @@
                   <span class="las la-comment"></span>
                   <span class="las la-phone"></span>
                 </div>
-             </div>
-
-             <div class="customer">
-                <div>
-                  <img src="" height="40px" width="40px" alt="">
-                </div>
-                <div>
-                  <h4>Lewis Cunninghum</h4>
-                  <small>CEO Excerpt</small>
-                </div>
-
-                <div>
-                  <span class="las la-user-circle"></span>
-                  <span class="las la-comment"></span>
-                  <span class="las la-phone"></span>
-                </div>
-             </div>
-
-             <div class="customer">
-                <div>
-                  <img src="" height="40px" width="40px" alt="">
-                </div>
-                <div>
-                  <h4>Lewis Cunninghum</h4>
-                  <small>CEO Excerpt</small>
-                </div>
-
-                <div>
-                  <span class="las la-user-circle"></span>
-                  <span class="las la-comment"></span>
-                  <span class="las la-phone"></span>
-                </div>
-             </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
 
-      </main>
-    </div>
+    </main>
+  </div>
 
-  </body>
-  </html>
+</body>
+</html>
