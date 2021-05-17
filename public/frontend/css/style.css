@@ -366,30 +366,8 @@ tr td:last-child {
   .main-content header {
     width: calc(100% - 100px);
     left: 100px;
+    transition: left 300ms;
   }
-
-  .sidebar:hover {
-    width: 300px;
-    z-index: 200;
-  }
-
-  .sidebar:hover .sidebar-brand,
-  .sidebar:hover li a {
-    padding-left: 1rem;
-    text-align: left;
-  }
-
-
-  .sidebar:hover li a span {
-    padding-left: 1rem;
-  }
-
-
-  .sidebar:hover .sidebar-brand h1 span:last-child,
-  .sidebar:hover li a span:last-child{
-    display: inline;
-  }
-
 }
 
 @media only screen and (max-width: 960px) {
@@ -418,46 +396,79 @@ tr td:last-child {
     .sidebar {
         left: -100% !important;
     }
-
-
     header h2 {
-        display: flex;
-        align-items: center;
+      display: flex;
+      align-items: center;
     }
+  
 
-    header h2 label {
-        display: inline-block;
-        text-align: center;
-        background: var(--main-color);
-        padding-right: 0rem;
-        margin-right: 0rem;
-        height: 40px;
-        width: 40px;
-        border-radius: 50%;
-        color:#fff;
-        display: flex;
-        align-items: center;
-        justify-content: center !important;
-    }
+  header h2 label {
+      display: inline-block;
+      text-align: center;
+      background: var(--main-color);
+      padding-right: 0rem;
+      margin-right: 0rem;
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+      color:#fff;
+      display: flex;
+      align-items: center;
+      justify-content: center !important;
+  }
 
-    header h2 span {
-       text-align: center;
-       padding-right: 0rem;
-    }
+  header h2 span {
+     text-align: center;
+     padding-right: 0rem;
+  }
 
-    .main-content {
-        width: 100%;
-        margin-left: 0rem;
+  header h2 {
+    font-size: 1.1rem;
+  }
+
+  .main-content {
+    width: 100%;
+    margin-left: 0rem;
+  }
+  header {
+    width: 100% !important;
+    left: 0 !important;
+  }
+
+
+    #nav-toggle:checked + .sidebar {
+      left: 0 !important;
+      z-index: 100;
+      width: 300px;
     }
-    header {
-        width: 100%;
-        left: 0;
+  
+    #nav-toggle:checked + .sidebar:hover .sidebar-brand,
+    #nav-toggle:checked + .sidebar:hover li a {
+      padding-left: 1rem;
+      text-align: left;
     }
+  
+  
+    #nav-toggle:checked + .sidebar li a span {
+      padding-left: 1rem;
+    }
+  
+  
+    #nav-toggle:checked + .sidebar .sidebar-brand h1 span:last-child {
+      display: none;
+    }
+    #nav-toggle:checked + .sidebar li a span:last-child{
+      display: inline;
+    }
+    #nav-toggle:checked ~ .main-content {
+      margin-left: 0rem !important;
+    }
+    
 }
 
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 560px) {
     .cards{
         grid-template-columns: 100%;
     }
