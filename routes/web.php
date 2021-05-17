@@ -14,5 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('frontend.index');
+    return view('frontend.student');
 });
+Route::get('student-page', function() {
+    return view('frontend.index');
+ });
+
+
+

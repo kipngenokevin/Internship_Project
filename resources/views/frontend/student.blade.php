@@ -18,7 +18,7 @@
         <li><a href="" class="active"><span class="las la-igloo"></span>
           <span>Dashboard</span></a>
         </li>
-        <li><a href="/student"><span class="las la-pen-nib"></span>
+        <li><a href=""><span class="las la-pen-nib"></span>
           <span>New Daily Entry</span></a>
         </li>
         <li><a href=""><span class="las la-list"></span>
@@ -332,3 +332,4 @@
 
 </body>
 </html>
+
